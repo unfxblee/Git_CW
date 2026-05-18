@@ -11,9 +11,9 @@ Edita → `git add practica-commits.md` → `git commit -m "..."`
 **Commit:** `feat(perfil): agrega presentación de [tu nombre]`
 
 ```
-Nombre     : 
-GitHub     : 
-Algo sobre mí : 
+Nombre     : Vazquez Moreno Gael
+GitHub     : github.com/unfxblee
+Algo sobre mí : me encanta pintar y los gatitos.
 ```
 
 ---
@@ -33,9 +33,9 @@ Algo sobre mí :
 **Commit:** `fix(convenciones): corrige errores en descripción de Git`
 
 > Git es un sistema de control de versiones creado en 2005 por Linus Torvalds
-> para reemplazar a SubVersion, que era de código cerrado y dejó de darse gratis al proyecto Linux.
-> Cada commit guarda una fotografía de todos los archivos del repositorio en ese momento,
-> identificada con un hash MD5 único. Para subir cambios al servidor usamos `git pull`.
+> para reemplazar a SubVersion, que era de código cerrado y dejó de darse gratis al proyecto Linux. /*era de licencia*/ /*reemplazaron a betkeeper*/
+> Cada commit guarda una fotografía de todos los archivos del repositorio en ese momento, 
+> identificada con un hash MD5 único. Para subir cambios al servidor usamos `git pull`. /*es git push*/ /*no es MD5, es SHA-1*/
 
 ---
 
@@ -44,9 +44,10 @@ Algo sobre mí :
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. 
-2. 
-3. 
+1. que daniel trabajo para el gobierno en una pagina web de deteccion volcanica
+2. que ocupando git config -- global init.defaultBranch main, ya no va a pedir iniciar a mano main
+3. que antes main se llamaba master
+4. Las convenciones al nombrar a los commits
 
 ---
 
