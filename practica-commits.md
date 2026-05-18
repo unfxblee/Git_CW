@@ -24,6 +24,9 @@ Algo sobre mí : me encanta pintar y los gatitos.
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
 - 
+    1. Las manualidades se me facilitan, ahora mismo me gusta mucho el punto de cruz (alma de abuela)
+    2. Igual se usar programas de diseño gráfico y programas simples de video
+    3. Estoy aprendiendo a hacer esculturas de barro
 
 ---
 
