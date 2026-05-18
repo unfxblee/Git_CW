@@ -61,12 +61,12 @@ Algo sobre mí : me encanta pintar y los gatitos.
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` |inicia un repositorio local para el control de las versiones|
+| `git status` | es el estado de ese momento del repositorio de git, muestra si hay commits, si hay advertencias etc|
+| `git add .` | prepara los cambios guardados de un archivo para el commit, el . significa que cualquier cambio de todo el rep en esa ruta se va a preparar|
+| `git commit -m "..."` | se hace como un checkpoint, el -m es para hacer una descripcion del commit|
+| `git log --oneline` | muestra el proceso de los commits|
+| `git push` | se sube el commit a gitHub|
 
 ---
 
