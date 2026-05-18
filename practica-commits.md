@@ -49,8 +49,8 @@ Algo sobre mí : me encanta pintar y los gatitos.
 
 1. que daniel trabajo para el gobierno en una pagina web de deteccion volcanica
 2. que ocupando git config -- global init.defaultBranch main, ya no va a pedir iniciar a mano main
-3. que antes main se llamaba master
-4. Las convenciones al nombrar a los commits
+3. que antes main se llamaba master por temas delicados en usa 
+4. Las convenciones al nombrar a los commits 
 
 ---
 
