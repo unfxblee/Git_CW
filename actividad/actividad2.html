@@ -18,7 +18,7 @@
     <hr>
     <h4>Ejercicio de explicacion de codigo</h4>
     <hr>
-    
+
     <p>El siguiente codigo (lenguaje C), es un programa que clasifica la edad de una persona como mayor o menor de edad, y muestra un mensaje.</p>
     <pre><code>
     int main() 
@@ -38,7 +38,44 @@
         }
         return 0;
     }
-    
     </code></pre>
+    <h5>Explicacion del codigo</h5>
+    <hr>
+
+    <p style="font-size: 30px;">int main( )</p>
+    <p>Es la funcion principal del programa, devuelve un valor entero.</p>
+    <hr>
+
+    <p style="font-size: 30px;">int edad;</p>
+    <p>Se declara una variable llamada "edad" de tipo entero.</p>
+    <hr>
+
+    <p style="font-size: 30px;">printf("¿Cuántos años tienes? ");</p>
+    <p>Imprimimos el mensaje entre comillas en la terminal</p>
+    <hr>
+
+    <p style="font-size: 30px;">scanf("%d", &edad);</p>
+    <p>El programa espera a que el usuario ingrese un valor de tipo entero, y cuando lo recibe lo guarda en la variable "edad", el %d indica que se espera un valor entero, y el &edad es la dirección a la memoria que le indica a scanf dónde se va a guardar el valor.</p>
+    <hr>
+
+    <p style="font-size: 30px;">if (edad >= 18)</p>
+    <p>La variable edad entra a una condicion de tipo sí/if, la condicion se expresa como, SI edad es mayor o igual a 18 años, se ejecutara ese bloque de codigo de ser cierto. </p>
+    <hr>
+
+    <p style="font-size: 30px;">printf("Eres mayor de edad.\n");</p>
+    <p>Ya que la condición de if es verdadera, ejecuta el printf que se encuentra en su respectivo bloque de codigo, este printf imprimira en la terminal un "Eres mayor de edad." y va a imprimir igual un caracter invisible que representa un salto de linea ("\n").</p>
+    <hr>
+
+    <p style="font-size: 30px;">else</p>
+    <p>Si la condición del if es falsa, se ejecuta el bloque de código dentro del else, es como, "okey no fue verdadera, pasemos a la siguiente condición".</p>
+    <hr>
+
+    <p style="font-size: 30px;">printf("Eres menor de edad.\n");</p>
+    <p>Ya que entro al ese esta estructura de control, ejecuta el printf, este printf imprimira en la terminal un "Eres menor de edad." y va a imprimir igual un caracter invisible que representa un salto de linea ("\n").</p>
+    <hr>
+
+    <p style="font-size: 30px;">return 0;</p>
+    <p>Indica que el programa ha terminado correctamente y devuelve el valor 0 al sistema operativo.</p>
+
 </body>
 </html>
