@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Gael Vazquez Moreno">
+    <meta name="descripcion" content="Pagina html con explicacion">
+    <title>Explicacióm de etiquetas de html</title>
+</head>
+<body style="background-color: rgb(165, 165, 165);">
+    <header style="align-items: center;">
+        <h1>Explicacion de etiquetas de HTML</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ivlpPDjXP5DFPlOMZWTwBd3GxL5QRIRvQQ&s" >
+        <hr>
+    </header>
+
+
+    <section id="tabla">
+            <table style="background-color: rgb(252, 247, 238);">
+                <caption>Etiquetas HTML - mi referencia</caption>
+                <colgroup>
+                    <col style="width:5%">
+                    <col style="width:40%">
+                    <col span="3" style="width:18%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col">Etiqueta</th>
+                        <th scope="col">Para que sirve</th>
+                        <th scope="col">Ejemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;nav&gt;</td><td>Etiqueta semantica que contiene la barra de navegacion</td>
+                            <td>
+                                <pre><code>
+&ltnav id="menu"&gt<br>
+    &lt href="index.html"&gtInicio&lt/a&gt<br>
+    &lt href="#acerca"&gtAcerca&lt/a&gt<br>
+    &lt href="contact.html"&gtContacto&lt/a&gt<br>
+    &lt href="#talleres"&gttalleres&lt/a&gt<br>
+&lt;/nav&gt;
+                                </code></pre>
+                            </td>
+                    <tr>
+                        <td>&lt;main&gt;</td><td>Etiqueta semantica que contiene todo lo principal que va a mostar el html</td>
+                            <td>
+                                <pre><code>
+&ltmain&gt<br>
+    contenido de maquetado.....<br>
+&lt;main&gt;
+                                </code></pre>
+                            </td>
+                    <tr>
+                        <td>&lt;header&gt;</td><td>Etiqueta semantica que contiene el encabezado de la pagina</td>
+                            <td>
+                                <pre><code>
+&ltheader&gt
+    &lth1&gtSistema de descripciones&lt/h1&gt
+&lt/header&gt
+                                </code></pre>
+                            </td>
+                    <tr>
+                        <td>&lt;ul&gt;</td><td>Etiqueta de tipo lista desordenada, es decir no existe una secuencia en las viñetas</td>
+                            <td>
+                                <pre><code><code>
+&ltul>
+    &ltli>Lunes 10:20-12:00&lt/li>
+    &ltli>Miercoles 8:40-10:20&lt/li>
+    &ltli>Viernes 8:40-10:30&lt/li>
+&lt/ul>
+                                </code></pre>
+                            </td>
+                    <tr>
+                        <td>&lt;ol&gt;</td><td>Etiqueta de tipo lista ordenada, es decir muestra una secuencia en las viñetas</td>
+                            <td>
+                                <pre>
+&ltol>
+    &ltli>Lunes 10:20-12:00&lt/li>
+    &ltli>Miercoles 8:40-10:20&lt/li>
+    &ltli>Viernes 8:40-10:30&lt/li>
+&lt/ol>
+                                </pre>
+                            </td>
+                    <tr>
+                </tbody>
+            </table>
+        </section>
+</body>
+</html>
